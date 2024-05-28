@@ -2,20 +2,20 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "business_theme"
+app_name = "frapee_business_theme"
 app_title = "Business Theme"
-app_publisher = "Randy Lowery"
+app_publisher = "Pratheesh Russell"
 app_description = "General theme for frappe"
 app_icon = "octicon octicon-file-directory"
 app_color = "orange"
-app_email = "randy.lowery@hotmail.com"
+app_email = "pratheeshrussell@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/business_theme/css/business_theme.css"
+app_include_css = "/assets/frapee_business_theme/css/business_theme.css"
 # app_include_js = "/assets/business_theme/js/business_theme.js"
 
 # include js, css files in header of web template
