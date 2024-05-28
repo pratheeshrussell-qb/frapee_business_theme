@@ -5,7 +5,7 @@ with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
 # get version from __version__ variable in whitetheme_v13/__init__.py
-from business_theme import __version__ as version
+from frapee_business_theme import __version__ as version
 
 setup(
 	name='frapee_business_theme',
